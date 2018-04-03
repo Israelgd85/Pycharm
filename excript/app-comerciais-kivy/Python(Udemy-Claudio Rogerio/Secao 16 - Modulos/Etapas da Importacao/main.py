@@ -1,9 +1,7 @@
-import math
+import ferramentas
+def func(l):
+    print("Fala galera!")
 
-e = math.e
+import dis
 
-pi = math.pi
-
-print(e)
-
-print(pi)
+dis.dis(func)
