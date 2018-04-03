@@ -1,11 +1,9 @@
-#coding: utf-8
+import math
 
+e = math.e
 
-import ferramentas
+pi = math.pi
 
-def func(l):
+print(e)
 
-  print("Fala galaera !")
-import dis
-
-dis.dis(func)
+print(pi)
