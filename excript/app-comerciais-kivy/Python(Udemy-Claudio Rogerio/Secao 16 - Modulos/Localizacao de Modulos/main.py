@@ -3,10 +3,11 @@
 
 
 #from sys import  path as lpath
-from pprint import pprint
+#from pprint import pprint
 import sys
+sys.path.insert(0, "/home/israel/Documents/tmp")
 import ferramentas
-pprint(sys.path)
+#pprint(sys.path)
 
 
 
