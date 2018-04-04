@@ -11,10 +11,10 @@ import ferramentas
 
 
 
-# ['/home/israel/dev/excript/app-comerciais-kivy/Secao 16 - Modulos',
+# ['/home/israel/dev/excript/app-comerciais-kivy/Secao16 - Modulos',
 #  '/home/israel/dev/excript/app-comerciais-kivy',
-#  '/home/israel/dev/excript/app-comerciais-kivy/Secao 16 - Modulos/Criacao  de 'Modulos',
-#  '/home/israel/dev/excript/app-comerciais-kivy/Secao 16 - Modulos/Localizacao de Modulos',
+#  '/home/israel/dev/excript/app-comerciais-kivy/Secao16 - Modulos/Criacao  de 'Modulos',
+#  '/home/israel/dev/excript/app-comerciais-kivy/Secao16 - Modulos/Localizacao de Modulos',
 
 #  '/home/israel/.virtualenvs/k35/lib/python35.zip',
 #  '/home/israel/.virtualenvs/k35/lib/python3.5',
