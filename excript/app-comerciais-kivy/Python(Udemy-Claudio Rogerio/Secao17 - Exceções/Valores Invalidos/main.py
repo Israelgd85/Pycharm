@@ -8,5 +8,10 @@ def input_float(msg):
 num1 = input_float("Digite o primeiro numero: ")
 num2 = input_float("Digite o segundo numero: ")
 
-print(num1 / num2)
+
+try:
+    print(num1 / num2)
+except ZeroDivisionError:
+    print("Não é possível dividir um número po zaro")
+
 
