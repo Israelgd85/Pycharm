@@ -5,8 +5,8 @@ def input_float(msg):
         except ValueError:
             print("Número Inválido")
 
-num1 = float(input("Digite o primeiro numero: "))
-num2 = float(input("Digite o segundo numero: "))
+num1 = input_float("Digite o primeiro numero: ")
+num2 = input_float("Digite o segundo numero: ")
 
 print(num1 / num2)
 
