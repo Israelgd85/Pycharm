@@ -5,13 +5,17 @@ def input_float(msg):
         except ValueError:
             print("Número Inválido")
 
+
+
 num1 = input_float("Digite o primeiro numero: ")
 num2 = input_float("Digite o segundo numero: ")
 
+def zero_division(num2):
+    while True:
+        try:
+            return print(num1 / num2)
+        except ZeroDivisionError:
+            print("Não é possível dividir um número po zero")
+        num2 = input_float("Digite o segundo numero: ")
 
-try:
-    print(num1 / num2)
-except ZeroDivisionError:
-    print("Não é possível dividir um número po zaro")
-
-
+zero_division(num2)
