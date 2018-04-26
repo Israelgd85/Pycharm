@@ -1,14 +1,14 @@
 def erro(x):
     try:
         eval(x)
-    except TypeError:
-        print("TypeError")
-    except NameError:
-        print("NameError")
-    except ValueError:
+    except ValueError as e:
         print("ValueError")
+        print(type(e))
     except ZeroDivisionError:
         print("ZeroDivisionError")
+    except (TypeError, NameError):
+        print("NameErros ocorreu ou então, NameError")
+
 
 
 
