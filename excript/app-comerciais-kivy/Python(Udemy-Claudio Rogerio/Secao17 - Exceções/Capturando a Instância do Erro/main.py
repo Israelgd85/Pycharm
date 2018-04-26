@@ -29,4 +29,4 @@ erro("int('a')")
 #erro("5/0")
 #erro("10+10")
 
-print("A aplicação foi finalizada")
+print("A aplica ção foi finalizada")
