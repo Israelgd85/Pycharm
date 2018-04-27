@@ -1,3 +1,7 @@
+#coding: utf-8
+
+__author__= "Israel Gomes Deconto"
+
 class Retagulo:
 
     def __init__(self):
