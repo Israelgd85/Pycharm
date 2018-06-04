@@ -15,6 +15,11 @@ r1 = Retagulo()
 r1.l = 10
 r1.a = 5
 
+r2 = Retagulo()
+r2.l = 20
+r2.a = 20
+
+print(r2.area())
 print(r1.area())
 
 
