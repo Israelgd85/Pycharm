@@ -12,5 +12,5 @@ class Retangulo:
         return self.l * self.a
 
 r = Retangulo(10, 5)
-r.l = "teste"
+# r.l = "teste"
 print(r.area())
